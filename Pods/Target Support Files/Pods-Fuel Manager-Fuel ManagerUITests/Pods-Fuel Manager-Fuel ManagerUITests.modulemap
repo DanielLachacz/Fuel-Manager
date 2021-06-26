@@ -1,0 +1,6 @@
+framework module Pods_Fuel_Manager_Fuel_ManagerUITests {
+  umbrella header "Pods-Fuel Manager-Fuel ManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

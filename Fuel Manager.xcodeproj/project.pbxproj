@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D056557A3A27CFD018E2E9 /* Pods_Fuel_Manager_Fuel_ManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EEACBB3FA17983BEC0D70B /* Pods_Fuel_Manager_Fuel_ManagerUITests.framework */; };
+		26C2AAD90760A467FDC73197 /* Pods_Fuel_ManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928A9F753562C104E0BC502C /* Pods_Fuel_ManagerTests.framework */; };
+		D5153CD8266CBBC7001B9550 /* Refueling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5153CD7266CBBC7001B9550 /* Refueling.swift */; };
+		D5153CDA266CBD63001B9550 /* AddRefuelingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5153CD9266CBD63001B9550 /* AddRefuelingViewModel.swift */; };
+		D57E2F48265688EF000BA36C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E2F47265688EF000BA36C /* Vehicle.swift */; };
+		D597C12E265529A9004F945B /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D597C12D265529A9004F945B /* StartViewModel.swift */; };
+		D597C1332655365E004F945B /* StartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D597C1322655365E004F945B /* StartRow.swift */; };
+		D597C13626553AF1004F945B /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D597C13526553AF1004F945B /* PersistenceService.swift */; };
+		D598EF47265D73400078CD3E /* AddRefuelingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598EF46265D73400078CD3E /* AddRefuelingView.swift */; };
+		D5ABC45326713EAD00824DB1 /* RefuelingListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABC45226713EAD00824DB1 /* RefuelingListRow.swift */; };
+		D5B902B42657D05F0078113B /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B902B32657D05F0078113B /* AddVehicleView.swift */; };
+		D5B902B62657D1A30078113B /* AddVehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B902B52657D1A30078113B /* AddVehicleViewModel.swift */; };
+		D5BA3E8A266D2EBC00FAFC55 /* RefuelingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA3E89266D2EBC00FAFC55 /* RefuelingListViewModel.swift */; };
+		D5CAC9A6268261830078D84C /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CAC9A5268261830078D84C /* DataViewModel.swift */; };
+		D5CC9A55265CFAD100E5928F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC9A54265CFAD100E5928F /* DataView.swift */; };
+		D5CC9A58265CFC4D00E5928F /* RefuelingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC9A57265CFC4D00E5928F /* RefuelingListView.swift */; };
+		D5D1451C265AF35100AF29DD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D1451B265AF35100AF29DD /* DetailView.swift */; };
+		D5F2661226543FE40027D66B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2661126543FE40027D66B /* AppDelegate.swift */; };
+		D5F2661426543FE40027D66B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2661326543FE40027D66B /* SceneDelegate.swift */; };
+		D5F2661626543FE40027D66B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2661526543FE40027D66B /* StartView.swift */; };
+		D5F2661826543FF70027D66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F2661726543FF70027D66B /* Assets.xcassets */; };
+		D5F2661B26543FF80027D66B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F2661A26543FF80027D66B /* Preview Assets.xcassets */; };
+		D5F2661E26543FF80027D66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F2661C26543FF80027D66B /* LaunchScreen.storyboard */; };
+		D5F2662926543FF90027D66B /* Fuel_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2662826543FF90027D66B /* Fuel_ManagerTests.swift */; };
+		D5F2663426543FF90027D66B /* Fuel_ManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F2663326543FF90027D66B /* Fuel_ManagerUITests.swift */; };
+		F6D206FD0D117CE1D5431DFD /* Pods_Fuel_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA43B481D84981404F50E01F /* Pods_Fuel_Manager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F2662526543FF90027D66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F2660626543FE40027D66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F2660D26543FE40027D66B;
+			remoteInfo = "Fuel Manager";
+		};
+		D5F2663026543FF90027D66B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F2660626543FE40027D66B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F2660D26543FE40027D66B;
+			remoteInfo = "Fuel Manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266BEC9343A4296B027CAF0A /* Pods-Fuel Manager-Fuel ManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Manager-Fuel ManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fuel Manager-Fuel ManagerUITests/Pods-Fuel Manager-Fuel ManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43785E72B8318726CC4D6CD4 /* Pods-Fuel Manager-Fuel ManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Manager-Fuel ManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-Fuel Manager-Fuel ManagerUITests/Pods-Fuel Manager-Fuel ManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8462DF223CA0A35BDF37076F /* Pods-Fuel ManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel ManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-Fuel ManagerTests/Pods-Fuel ManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		928A9F753562C104E0BC502C /* Pods_Fuel_ManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fuel_ManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EEACBB3FA17983BEC0D70B /* Pods_Fuel_Manager_Fuel_ManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fuel_Manager_Fuel_ManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F009ADF7546ED0C0085408 /* Pods-Fuel Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Manager.debug.xcconfig"; path = "Target Support Files/Pods-Fuel Manager/Pods-Fuel Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		BB491C6D83F98CD7896323E7 /* Pods-Fuel Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel Manager.release.xcconfig"; path = "Target Support Files/Pods-Fuel Manager/Pods-Fuel Manager.release.xcconfig"; sourceTree = "<group>"; };
+		D5153CD7266CBBC7001B9550 /* Refueling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refueling.swift; sourceTree = "<group>"; };
+		D5153CD9266CBD63001B9550 /* AddRefuelingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRefuelingViewModel.swift; sourceTree = "<group>"; };
+		D57E2F47265688EF000BA36C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		D597C12D265529A9004F945B /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		D597C1322655365E004F945B /* StartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRow.swift; sourceTree = "<group>"; };
+		D597C13526553AF1004F945B /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		D598EF46265D73400078CD3E /* AddRefuelingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRefuelingView.swift; sourceTree = "<group>"; };
+		D5ABC45226713EAD00824DB1 /* RefuelingListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingListRow.swift; sourceTree = "<group>"; };
+		D5B902B32657D05F0078113B /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		D5B902B52657D1A30078113B /* AddVehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleViewModel.swift; sourceTree = "<group>"; };
+		D5BA3E89266D2EBC00FAFC55 /* RefuelingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingListViewModel.swift; sourceTree = "<group>"; };
+		D5CAC9A5268261830078D84C /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		D5CC9A54265CFAD100E5928F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		D5CC9A57265CFC4D00E5928F /* RefuelingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuelingListView.swift; sourceTree = "<group>"; };
+		D5D1451B265AF35100AF29DD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D5F2660E26543FE40027D66B /* Fuel Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fuel Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F2661126543FE40027D66B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5F2661326543FE40027D66B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5F2661526543FE40027D66B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		D5F2661726543FF70027D66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F2661A26543FF80027D66B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5F2661D26543FF80027D66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F2661F26543FF80027D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F2662426543FF90027D66B /* Fuel ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuel ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F2662826543FF90027D66B /* Fuel_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel_ManagerTests.swift; sourceTree = "<group>"; };
+		D5F2662A26543FF90027D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F2662F26543FF90027D66B /* Fuel ManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuel ManagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F2663326543FF90027D66B /* Fuel_ManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fuel_ManagerUITests.swift; sourceTree = "<group>"; };
+		D5F2663526543FF90027D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09763501977682B7C4AD894 /* Pods-Fuel ManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fuel ManagerTests.release.xcconfig"; path = "Target Support Files/Pods-Fuel ManagerTests/Pods-Fuel ManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA43B481D84981404F50E01F /* Pods_Fuel_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fuel_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F2660B26543FE40027D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D206FD0D117CE1D5431DFD /* Pods_Fuel_Manager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662126543FF90027D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C2AAD90760A467FDC73197 /* Pods_Fuel_ManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662C26543FF90027D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D056557A3A27CFD018E2E9 /* Pods_Fuel_Manager_Fuel_ManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83819D40F3934502BB739416 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7F009ADF7546ED0C0085408 /* Pods-Fuel Manager.debug.xcconfig */,
+				BB491C6D83F98CD7896323E7 /* Pods-Fuel Manager.release.xcconfig */,
+				266BEC9343A4296B027CAF0A /* Pods-Fuel Manager-Fuel ManagerUITests.debug.xcconfig */,
+				43785E72B8318726CC4D6CD4 /* Pods-Fuel Manager-Fuel ManagerUITests.release.xcconfig */,
+				8462DF223CA0A35BDF37076F /* Pods-Fuel ManagerTests.debug.xcconfig */,
+				F09763501977682B7C4AD894 /* Pods-Fuel ManagerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D597C12C26552986004F945B /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2661526543FE40027D66B /* StartView.swift */,
+				D597C12D265529A9004F945B /* StartViewModel.swift */,
+				D597C1322655365E004F945B /* StartRow.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		D597C12F26552AB0004F945B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D57E2F47265688EF000BA36C /* Vehicle.swift */,
+				D5153CD7266CBBC7001B9550 /* Refueling.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D597C13426553A61004F945B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D597C13526553AF1004F945B /* PersistenceService.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		D598EF45265D73230078CD3E /* AddRefueling */ = {
+			isa = PBXGroup;
+			children = (
+				D598EF46265D73400078CD3E /* AddRefuelingView.swift */,
+				D5153CD9266CBD63001B9550 /* AddRefuelingViewModel.swift */,
+			);
+			path = AddRefueling;
+			sourceTree = "<group>";
+		};
+		D5B902B22657CFED0078113B /* AddVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				D5B902B32657D05F0078113B /* AddVehicleView.swift */,
+				D5B902B52657D1A30078113B /* AddVehicleViewModel.swift */,
+			);
+			path = AddVehicle;
+			sourceTree = "<group>";
+		};
+		D5CC9A53265CFAB600E5928F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC9A54265CFAD100E5928F /* DataView.swift */,
+				D5CAC9A5268261830078D84C /* DataViewModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D5CC9A56265CFC2600E5928F /* RefuelingList */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC9A57265CFC4D00E5928F /* RefuelingListView.swift */,
+				D5BA3E89266D2EBC00FAFC55 /* RefuelingListViewModel.swift */,
+				D5ABC45226713EAD00824DB1 /* RefuelingListRow.swift */,
+			);
+			path = RefuelingList;
+			sourceTree = "<group>";
+		};
+		D5D14518265AF1AF00AF29DD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D5D1451B265AF35100AF29DD /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D5F2660526543FE40027D66B = {
+			isa = PBXGroup;
+			children = (
+				D5F2661026543FE40027D66B /* Fuel Manager */,
+				D5F2662726543FF90027D66B /* Fuel ManagerTests */,
+				D5F2663226543FF90027D66B /* Fuel ManagerUITests */,
+				D5F2660F26543FE40027D66B /* Products */,
+				83819D40F3934502BB739416 /* Pods */,
+				F211C2ED3AC88CFEA28B7712 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F2660F26543FE40027D66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2660E26543FE40027D66B /* Fuel Manager.app */,
+				D5F2662426543FF90027D66B /* Fuel ManagerTests.xctest */,
+				D5F2662F26543FF90027D66B /* Fuel ManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F2661026543FE40027D66B /* Fuel Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D598EF45265D73230078CD3E /* AddRefueling */,
+				D5CC9A56265CFC2600E5928F /* RefuelingList */,
+				D5CC9A53265CFAB600E5928F /* Data */,
+				D5D14518265AF1AF00AF29DD /* Detail */,
+				D5B902B22657CFED0078113B /* AddVehicle */,
+				D597C13426553A61004F945B /* Database */,
+				D597C12F26552AB0004F945B /* Model */,
+				D597C12C26552986004F945B /* Start */,
+				D5F2661126543FE40027D66B /* AppDelegate.swift */,
+				D5F2661326543FE40027D66B /* SceneDelegate.swift */,
+				D5F2661726543FF70027D66B /* Assets.xcassets */,
+				D5F2661C26543FF80027D66B /* LaunchScreen.storyboard */,
+				D5F2661F26543FF80027D66B /* Info.plist */,
+				D5F2661926543FF80027D66B /* Preview Content */,
+			);
+			path = "Fuel Manager";
+			sourceTree = "<group>";
+		};
+		D5F2661926543FF80027D66B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2661A26543FF80027D66B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5F2662726543FF90027D66B /* Fuel ManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2662826543FF90027D66B /* Fuel_ManagerTests.swift */,
+				D5F2662A26543FF90027D66B /* Info.plist */,
+			);
+			path = "Fuel ManagerTests";
+			sourceTree = "<group>";
+		};
+		D5F2663226543FF90027D66B /* Fuel ManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F2663326543FF90027D66B /* Fuel_ManagerUITests.swift */,
+				D5F2663526543FF90027D66B /* Info.plist */,
+			);
+			path = "Fuel ManagerUITests";
+			sourceTree = "<group>";
+		};
+		F211C2ED3AC88CFEA28B7712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA43B481D84981404F50E01F /* Pods_Fuel_Manager.framework */,
+				92EEACBB3FA17983BEC0D70B /* Pods_Fuel_Manager_Fuel_ManagerUITests.framework */,
+				928A9F753562C104E0BC502C /* Pods_Fuel_ManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F2660D26543FE40027D66B /* Fuel Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F2663826543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel Manager" */;
+			buildPhases = (
+				FA3F7ECF43AF3327C3EE1375 /* [CP] Check Pods Manifest.lock */,
+				D5F2660A26543FE40027D66B /* Sources */,
+				D5F2660B26543FE40027D66B /* Frameworks */,
+				D5F2660C26543FE40027D66B /* Resources */,
+				8E5837916817F2BA50693C2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fuel Manager";
+			productName = "Fuel Manager";
+			productReference = D5F2660E26543FE40027D66B /* Fuel Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F2662326543FF90027D66B /* Fuel ManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F2663B26543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel ManagerTests" */;
+			buildPhases = (
+				CDBC5D9AB4FD51813076EF16 /* [CP] Check Pods Manifest.lock */,
+				D5F2662026543FF90027D66B /* Sources */,
+				D5F2662126543FF90027D66B /* Frameworks */,
+				D5F2662226543FF90027D66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F2662626543FF90027D66B /* PBXTargetDependency */,
+			);
+			name = "Fuel ManagerTests";
+			productName = "Fuel ManagerTests";
+			productReference = D5F2662426543FF90027D66B /* Fuel ManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5F2662E26543FF90027D66B /* Fuel ManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F2663E26543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel ManagerUITests" */;
+			buildPhases = (
+				5BCF26CFA14751C0BA716477 /* [CP] Check Pods Manifest.lock */,
+				D5F2662B26543FF90027D66B /* Sources */,
+				D5F2662C26543FF90027D66B /* Frameworks */,
+				D5F2662D26543FF90027D66B /* Resources */,
+				2CC975ACA65C24DC6A07998B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F2663126543FF90027D66B /* PBXTargetDependency */,
+			);
+			name = "Fuel ManagerUITests";
+			productName = "Fuel ManagerUITests";
+			productReference = D5F2662F26543FF90027D66B /* Fuel ManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F2660626543FE40027D66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Daniel Łachacz";
+				TargetAttributes = {
+					D5F2660D26543FE40027D66B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D5F2662326543FF90027D66B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D5F2660D26543FE40027D66B;
+					};
+					D5F2662E26543FF90027D66B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D5F2660D26543FE40027D66B;
+					};
+				};
+			};
+			buildConfigurationList = D5F2660926543FE40027D66B /* Build configuration list for PBXProject "Fuel Manager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F2660526543FE40027D66B;
+			productRefGroup = D5F2660F26543FE40027D66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F2660D26543FE40027D66B /* Fuel Manager */,
+				D5F2662326543FF90027D66B /* Fuel ManagerTests */,
+				D5F2662E26543FF90027D66B /* Fuel ManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F2660C26543FE40027D66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F2661E26543FF80027D66B /* LaunchScreen.storyboard in Resources */,
+				D5F2661B26543FF80027D66B /* Preview Assets.xcassets in Resources */,
+				D5F2661826543FF70027D66B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662226543FF90027D66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662D26543FF90027D66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC975ACA65C24DC6A07998B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager-Fuel ManagerUITests/Pods-Fuel Manager-Fuel ManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager-Fuel ManagerUITests/Pods-Fuel Manager-Fuel ManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager-Fuel ManagerUITests/Pods-Fuel Manager-Fuel ManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BCF26CFA14751C0BA716477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fuel Manager-Fuel ManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5837916817F2BA50693C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager/Pods-Fuel Manager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager/Pods-Fuel Manager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fuel Manager/Pods-Fuel Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBC5D9AB4FD51813076EF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fuel ManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3F7ECF43AF3327C3EE1375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fuel Manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F2660A26543FE40027D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BA3E8A266D2EBC00FAFC55 /* RefuelingListViewModel.swift in Sources */,
+				D5153CDA266CBD63001B9550 /* AddRefuelingViewModel.swift in Sources */,
+				D5CAC9A6268261830078D84C /* DataViewModel.swift in Sources */,
+				D5B902B62657D1A30078113B /* AddVehicleViewModel.swift in Sources */,
+				D5ABC45326713EAD00824DB1 /* RefuelingListRow.swift in Sources */,
+				D5F2661226543FE40027D66B /* AppDelegate.swift in Sources */,
+				D597C12E265529A9004F945B /* StartViewModel.swift in Sources */,
+				D5153CD8266CBBC7001B9550 /* Refueling.swift in Sources */,
+				D598EF47265D73400078CD3E /* AddRefuelingView.swift in Sources */,
+				D5D1451C265AF35100AF29DD /* DetailView.swift in Sources */,
+				D597C13626553AF1004F945B /* PersistenceService.swift in Sources */,
+				D5B902B42657D05F0078113B /* AddVehicleView.swift in Sources */,
+				D5CC9A58265CFC4D00E5928F /* RefuelingListView.swift in Sources */,
+				D5F2661426543FE40027D66B /* SceneDelegate.swift in Sources */,
+				D57E2F48265688EF000BA36C /* Vehicle.swift in Sources */,
+				D5CC9A55265CFAD100E5928F /* DataView.swift in Sources */,
+				D5F2661626543FE40027D66B /* StartView.swift in Sources */,
+				D597C1332655365E004F945B /* StartRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662026543FF90027D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F2662926543FF90027D66B /* Fuel_ManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F2662B26543FF90027D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F2663426543FF90027D66B /* Fuel_ManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F2662626543FF90027D66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F2660D26543FE40027D66B /* Fuel Manager */;
+			targetProxy = D5F2662526543FF90027D66B /* PBXContainerItemProxy */;
+		};
+		D5F2663126543FF90027D66B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F2660D26543FE40027D66B /* Fuel Manager */;
+			targetProxy = D5F2663026543FF90027D66B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F2661C26543FF80027D66B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F2661D26543FF80027D66B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F2663626543FF90027D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5F2663726543FF90027D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F2663926543FF90027D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F009ADF7546ED0C0085408 /* Pods-Fuel Manager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fuel Manager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fuel Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F2663A26543FF90027D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB491C6D83F98CD7896323E7 /* Pods-Fuel Manager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fuel Manager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fuel Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5F2663C26543FF90027D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8462DF223CA0A35BDF37076F /* Pods-Fuel ManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fuel ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel Manager.app/Fuel Manager";
+			};
+			name = Debug;
+		};
+		D5F2663D26543FF90027D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09763501977682B7C4AD894 /* Pods-Fuel ManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fuel ManagerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-ManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fuel Manager.app/Fuel Manager";
+			};
+			name = Release;
+		};
+		D5F2663F26543FF90027D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266BEC9343A4296B027CAF0A /* Pods-Fuel Manager-Fuel ManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fuel ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fuel Manager";
+			};
+			name = Debug;
+		};
+		D5F2664026543FF90027D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43785E72B8318726CC4D6CD4 /* Pods-Fuel Manager-Fuel ManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fuel ManagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DL.Fuel-ManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fuel Manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F2660926543FE40027D66B /* Build configuration list for PBXProject "Fuel Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F2663626543FF90027D66B /* Debug */,
+				D5F2663726543FF90027D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F2663826543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F2663926543FF90027D66B /* Debug */,
+				D5F2663A26543FF90027D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F2663B26543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel ManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F2663C26543FF90027D66B /* Debug */,
+				D5F2663D26543FF90027D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F2663E26543FF90027D66B /* Build configuration list for PBXNativeTarget "Fuel ManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F2663F26543FF90027D66B /* Debug */,
+				D5F2664026543FF90027D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F2660626543FE40027D66B /* Project object */;
+}
